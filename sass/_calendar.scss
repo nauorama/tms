@@ -1,0 +1,8 @@
+.calendar {
+    display: flex;
+    max-height: 100vh;
+    
+    .wrapper {
+        overflow: auto;
+    }
+}

@@ -1,0 +1,123 @@
+[
+    {
+        "league": "nfl",
+        "eventName": "Denver Broncos at Jacksonville Jaguars",
+        "eventDate": "11.08.19",
+        "eventTime": "6:15",
+        "eventDayPeriod": "pm",
+        "eventDuration": "2"
+    },
+    {
+        "league": "nfl",
+        "eventName": "Denver Broncos at Jacksonville Jaguars",
+        "eventDate": "11.08.19",
+        "eventTime": "8:15",
+        "eventDayPeriod": "pm",
+        "eventDuration": "1"
+    },
+    {
+        "league": "nfl",
+        "eventName": "Denver Broncos at Jacksonville Jaguars",
+        "eventDate": "12.08.19",
+        "eventTime": "6:15",
+        "eventDayPeriod": "pm",
+        "eventDuration": "2"
+    },
+    {
+        "league": "mlb",
+        "eventName": "Colorado Rockies at Los Angeles Angels of Anaheim",
+        "eventDate": "11.08.19",
+        "eventTime": "6:15",
+        "eventDayPeriod": "pm",
+        "eventDuration": "1"
+    },
+    {
+        "league": "mlb",
+        "eventName": "Boston Red Sox at New York Yankees",
+        "eventDate": "11.08.19",
+        "eventTime": "6:30",
+        "eventDayPeriod": "pm",
+        "eventDuration": "1"
+    },
+    {
+        "league": "mlb",
+        "eventName": "Colorado Rockies at Los Angeles Angels of Anaheim",
+        "eventDate": "11.08.19",
+        "eventTime": "7:20",
+        "eventDayPeriod": "pm",
+        "eventDuration": "1"
+    },
+   
+    {
+        "league": "nba",
+        "eventName": "Los Angeles Lakers at Chicago Bulls",
+        "eventDate": "11.08.19",
+        "eventTime": "5:10",
+        "eventDayPeriod": "pm",
+        "eventDuration": "1"
+    },
+    {
+        "league": "nba",
+        "eventName": "Los Angeles Clippers at Denver Nuggets",
+        "eventDate": "11.08.19",
+        "eventTime": "6:20",
+        "eventDayPeriod": "pm",
+        "eventDuration": "1"
+    },
+    {
+        "league": "nba",
+        "eventName": "Los Angeles Lakers at Chicago Bulls",
+        "eventDate": "11.08.19",
+        "eventTime": "7:15",
+        "eventDayPeriod": "pm",
+        "eventDuration": "1"
+    },
+    {
+        "league": "nba",
+        "eventName": "Los Angeles Lakers at Chicago Bulls",
+        "eventDate": "11.08.19",
+        "eventTime": "9:15",
+        "eventDayPeriod": "pm",
+        "eventDuration": "1"
+    },
+    {
+        "league": "mls",
+        "eventName": "LA Galaxy at Soccer Team",
+        "eventDate": "11.08.19",
+        "eventTime": "9:20",
+        "eventDayPeriod": "pm",
+        "eventDuration": "1"
+    },
+    {
+        "league": "mls",
+        "eventName": "LA Galaxy at Soccer Team",
+        "eventDate": "11.08.19",
+        "eventTime": "7:20",
+        "eventDayPeriod": "pm",
+        "eventDuration": "1"
+    },
+    {
+        "league": "mls",
+        "eventName": "LA Galaxy at Soccer Team",
+        "eventDate": "11.08.19",
+        "eventTime": "9:20",
+        "eventDayPeriod": "pm",
+        "eventDuration": "1"
+    },
+    {
+        "league": "ufs",
+        "eventName": "Anderson Silva vs. Someone Else",
+        "eventDate": "11.08.19",
+        "eventTime": "6:10",
+        "eventDayPeriod": "pm",
+        "eventDuration": "2"
+    },
+    {
+        "league": "ufs",
+        "eventName": "Tito Ortiz vs. Chuck Liddel",
+        "eventDate": "11.08.19",
+        "eventTime": "9:20",
+        "eventDayPeriod": "pm",
+        "eventDuration": "1"
+    }
+]

@@ -1,0 +1,67 @@
+.days {
+    width: 17.96875%;
+    min-width: rem(230px);
+    padding-top: rem(30px);
+    padding-bottom: rem(30px);
+    overflow: auto;
+    
+    .day {
+        font-size: rem(16px);
+        font-weight: 900;
+        letter-spacing: rem(1.5px);
+        text-align: center;
+        position: relative;
+        padding-top: rem(8px);
+        padding-bottom: rem(8px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        span {
+            padding-left: rem(15px);
+            padding-right: rem(15px);
+            line-height: rem(26px);
+        }
+
+        &:before,
+        &:after {
+            content: '';
+            width: 100%;
+            display: block;
+            text-align:left;
+        }
+
+        &.today {
+            //word 'today'
+            &:before {
+                content: 'Today';
+                text-transform: uppercase;
+                font-size: rem(15px);
+                letter-spacing: rem(2.44px);
+            }
+        }
+
+        &.current {
+            font-size: rem(26px);
+            
+            //line
+            &:after {
+                background: white;
+                height: 2px;
+            }
+        }
+    }
+
+    .week {
+        font-size: rem(15px);
+        font-weight: 900;
+        letter-spacing: rem(2.44px);
+        text-transform: uppercase;
+        padding-top: rem(15px);
+        padding-bottom: rem(15px);
+    }
+}

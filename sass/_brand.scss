@@ -1,0 +1,77 @@
+$accent : #e56414;
+$primary-color: #1b1f27;
+$secondary-color: #252931;
+$days-color: #484a50;
+$time-color: #8d99ae;
+$header-color:#32343c;
+$header-color-alt: #262a32;
+$border-color: $days-color;
+
+body {
+    background: $primary-color;
+}
+
+.container {
+    width: 100%;
+    max-width: rem(1310px); //1280 + 30
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.days {
+    .day {
+        color: $days-color;
+
+        &.current {
+            color: $accent;
+
+            &:after {
+                background: $accent;
+            }
+        }
+    }
+
+    .week {
+        color: $days-color;
+    }
+}
+
+
+.timetable {
+    > .inner {
+        > .column {
+            background: $primary-color;
+
+            header {
+                background: $header-color-alt;
+            }
+
+            &:nth-child(odd) {
+                background: $secondary-color;
+
+                header {
+                    background: $header-color;
+                }
+            }
+        }
+
+        .row {
+            border-color: $border-color;
+        }
+    }
+}
+
+.event {
+    .time  {
+        color: $time-color;
+    }
+}
+
+.mCSB_inside > .mCSB_container {
+    margin-right: 15px;
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background: $border-color;
+}
